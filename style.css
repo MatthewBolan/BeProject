@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#navbar{
+    background-color:white;
+    border-bottom: black 10px solid  ;
+    height: 125px;
+    width: 1000px;
+    margin: 0 345px;
+    margin-top: 12px;
+
+}
+
+.nbsection1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nbsection1 img{
+    background-color: #00bab0;
+    border-radius: 10%;
+}
+.nbsection1 h2{
+    font-size: 40px;
+}
+.nbsection1 h3{
+    font-size: 30px;
+    margin-left: 5px;
+
+}
+
+.nbsection1 input{
+    width: 600px;
+    font-size: 25px;
+    border-radius: 25px;
+    height: 40px;
+    text-indent: 25px;
+}
+
+.nbsection2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+#darkcart{
+    background-color: white;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 55px;
+}
+
+
+
+#section1{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+
+}
+.discover{
+    background-color: #00bbb1;
+    height: 450px;
+    width: 450px;
+}
+.discover p{
+    word-break: normal;
+    width: 300px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin: 0 80px;
+    margin-top: 50px;
+}
+.discover h1{
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.imgbox1{
+    background-color: rgb(43, 70, 226);
+    height: 450px;
+    width: 450px;
+    margin-right: 30px;
+    
+
+}
+.imgbox1 img{
+    height: 450px;
+    width: 450px;
+
+}
+
+.soothingaloe{
+    height: 450px;
+    width: 450px;
+
+}
+.soothingaloe img{
+    width: 450px;
+}
+
+#aloeflex{
+    background-color: #00bbb1;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 117px;
+    margin-top: 30px;
+    font-size: 30px;
+    text-indent: 45px;
+    
+}
+
+
+
+#plantbar{
+    background-color: #adeae7;
+    height: 285px;
+    width: 1500px;
+    margin: 0 95px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#plantbar img{
+    border-radius: 50%;
+    width: 210px;
+    
+}
+#plantbar h4{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#cookiepolicy{
+    transform: scaleZ(1);
+    background-color: #ffffff;
+    border: solid 4px black;
+    margin: 200px 305px;
+    height: 150px;
+    width: 1075px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 250px;
+}
+#cookiepolicy img{
+    transform: scale(1.2);
+    margin-left: 20px;
+    position: relative;
+    right: 5px;
+    top: 5px;
+}
+#cookiepolicy p{
+    font-size: 30px;
+    word-break: normal;
+    width: 1090px;
+    position: relative;
+    left: 10px;
+}
+#cookiepolicy button{
+    background-color: #00bbb3;
+    color: white;
+    font-size: 25px;
+    height: 60px;
+    width: 160px;
+    margin-right: 20px;
+    border: solid 4px black;
+}
