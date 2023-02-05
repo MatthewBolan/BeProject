@@ -159,8 +159,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: relative;
-    bottom: 250px;
+    position: fixed;
+    bottom: 0px;
 }
 #cookiepolicy img{
     transform: scale(1.2);
@@ -176,6 +176,7 @@ h1 {
     position: relative;
     left: 10px;
 }
+
 #cookiepolicy button{
     background-color: #00bbb3;
     color: white;
